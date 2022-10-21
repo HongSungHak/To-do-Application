@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class View {
     @GetMapping("/")
     public String todo() {
-        return "To-do-Application !";
+        return "To-do-Application ! Complete";
     }
 }
